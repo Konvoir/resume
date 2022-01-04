@@ -1,21 +1,39 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color:#f5f8fa;    
+    background-color:#fff6ea;    
 }
-.main-section{
+.main{
     display: flex;
     flex-direction: row-reverse;
     width: 1200px;
-    background-color: #fff;
+    background-color: #fff6ea;
     margin: 40px auto;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1)
 }
 
 /* main content section */
 
-.main-content-section{
-    padding: 100px 90px;
+.section{
+    padding: 50px;
 }
+
+.btn{
+   text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #2a7400;
+    box-shadow: 6px 6px 20px rgba(5, 92, 0, 0.196)
+
+}
+
+.btn:hover, 
+.btn:focus{
+    color: rgb(251, 109, 58);
+    background-color: 251, 109, 58;
+    box-shadow: 7px 7px 20px rgba(251, 109, 58, 0.3);
+    /* outline: #FB6D3A; */
+}
+
 .main-content-titel{
     font-style: normal;
     font-weight: bold;
@@ -67,12 +85,22 @@ body{
     color: #000000;
 }
 .my-project-link{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #2a7400;
+    /* text-shadow: 1px 1px 2px rgba(1, 2, 0, 0.196); */
+    /* box-shadow: 6px 6px 20px rgba(5, 92, 0, 0.196) */
+
 }
+
+.my-project-link:hover,
+.my-project-link:focus{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(251, 109, 58);
+}
+
 .my-projects-text{
     font-style: normal;
     font-weight: normal;
@@ -91,8 +119,8 @@ body{
 
 /* my work experience */
 
-.my-work-ecsperience-company{
-    color: #FB6D3A;
+.company{
+    color: rgb(251, 109, 58);
 }
 .my-work-experience-block{
     margin: 15px 0;
@@ -144,7 +172,7 @@ body{
 /* sidebar section */
 
 .sidebar-section{
-    background-color: #0d131c;
+    background-color: rgb(13, 19, 28);
     width: 370px;
     padding: 40px 0;
 }
@@ -174,20 +202,32 @@ body{
     color: #fff;
     margin-right: 5px;
 }
-.contacts-section-link{
-    color: #565e56;
+
+.contacts-section-type:hover,
+.contacts-section-type:focus{
+    color: rgb(251, 109, 58);
+    font-weight:bold;
+}
+
+.link{
+    color: rgb(251, 109, 58);
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;        
 }
-.contacts-section-link-pfone{
-    color: #565e56;
+.phone{
+    color: rgb(251, 109, 58);
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     text-decoration: none; 
+}
+
+.link:hover,
+.phone:hover{
+    font-weight: bold;
 }
 
 /* tech skills section*/
